@@ -11,6 +11,7 @@ const App = () => {
     axios.get('https://swapi.dev/api/people/1')
       .then((res) => {
         console.log(res);
+        setData1(res)
       })
     }, []
   )
